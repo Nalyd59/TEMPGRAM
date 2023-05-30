@@ -1,23 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Tempgram</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="figures.css">
   </head>
   <body>
-    <div>
-      <h1>TEMPGRAM</h1>
-      <canvas id="canvas" width="500" height="500" style="border:5px inset #000000;"></canvas>
-      <br>
-      <br>
+
+    <nav>
       <input id="carre" type="button" value="Carré">
       <input id="desordre" type="button" value="Désordres">
       <input id="chat" type="button" value="Chat">
       <input id="canard" type="button" value="Canard">
+    </nav>
+
+    <div id="canvas">
+    
+      <div id="forme1"></div>
+      <div id="forme2"></div>
+      <div id="forme3"></div>
+      <div id="forme4"></div>
+      <div id="forme5"></div>
+      <div id="forme6"></div>
+      <div id="forme7"></div>
+
     </div>
+      
+
     <script src="script.js"></script>
+
   </body>
 </html>

@@ -2,12 +2,6 @@ body{
     background-color: beige;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-div{
-    text-align: center;
-}
-canvas{
-    background-color: aliceblue;
-}
 input{
     color: aliceblue;
     background-color: black;
@@ -16,4 +10,9 @@ input{
     margin: 5px;
     padding: 10px;
     border-radius: 100px;
+}
+.container {
+    text-align: center;
+    display: flex;
+    justify-content: center;
 }
