@@ -6,6 +6,7 @@
     top: 335px;
     left: 465px;
     transform: rotate(45deg);
+    transition: 1s;
 }
 #forme2 {
     position: relative;
@@ -18,6 +19,7 @@
     transform: rotate(180deg);
     top: 200px;
     left: 450px;
+    transition: 1s;
 }
 #forme3 {
     position: relative;
@@ -30,6 +32,7 @@
     transform: rotate(90deg);
     top: 0px;
     left: 450px;
+    transition: 1s;
 }
 #forme4 {
     position: relative;
@@ -42,6 +45,7 @@
     transform: rotate(270deg);
     top: -100px;
     left: 450px;
+    transition: 1s;
 }
 #forme5 {
     position: relative;
@@ -53,6 +57,7 @@
     border-top: 50px solid yellow;
     top: -250px;
     left: 500px;
+    transition: 1s;
 }
 #forme6 {
     position: relative;
@@ -62,6 +67,7 @@
     top: -400px;
     left: 525px;
     transform: skew(135deg);
+    transition: 1s;
 }
 #forme7 {
     position: relative;
@@ -74,4 +80,5 @@
     transform: rotate(135deg);
     top: -520px;
     left: 380px;
+    transition: 1s;
 }

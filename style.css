@@ -16,3 +16,68 @@ input{
     display: flex;
     justify-content: center;
 }
+
+#forme1 {
+    position: relative;
+    height: 71px;
+    width: 71px;
+    background-color: blue;
+    transition: 3s;
+}
+#forme2 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid green;
+    transition: 3s;
+}
+#forme3 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid red;
+    transition: 3s;
+}
+#forme4 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid pink;
+    transition: 3s;
+}
+#forme5 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid transparent;
+    border-top: 50px solid yellow;
+    transition: 3s;
+}
+#forme6 {
+    position: relative;
+    width: 100px;
+    height: 50px;
+    background-color: black;
+    transition: 3s;
+}
+#forme7 {
+    position: relative;
+    height: 0px;
+    width: 0px;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid transparent;
+    border-top: 70px solid brown;
+    transition: 3s;
+}

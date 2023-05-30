@@ -6,15 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" >
     <title>Tempgram</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="figures.css">
+    <link id="change" rel="stylesheet" href="square.css">
   </head>
   <body>
 
     <nav>
-      <input id="carre" type="button" value="Carré">
-      <input id="desordre" type="button" value="Désordres">
-      <input id="chat" type="button" value="Chat">
-      <input id="canard" type="button" value="Canard">
+      <input onclick="myfonction('square.css')" id="carre" type="button" value="Carré">
+      <input onclick="myfonction('figures.css')" id="desordre" type="button" value="Désordres">
+      <input onclick="myfonction('cheval.css')" id="cheval" type="button" value="Cheval">
+      <input onclick="myfonction('kangourou.css')" id="kangourou" type="button" value="Kangourou">
     </nav>
 
     <div id="canvas">
