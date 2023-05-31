@@ -1,36 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" >
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
-    <title>Tempgram</title>
-    <link rel="stylesheet" href="style.css">
-    <link id="change" rel="stylesheet" href="square.css">
-  </head>
-  <body>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tangram</title>
+	<link rel="stylesheet" href="style.css">
+	<link id="change" rel="stylesheet" href="figures.css">
 
-    <nav>
-      <input onclick="myfonction('square.css')" id="carre" type="button" value="Carré">
-      <input onclick="myfonction('figures.css')" id="desordre" type="button" value="Désordres">
-      <input onclick="myfonction('cheval.css')" id="cheval" type="button" value="Cheval">
-      <input onclick="myfonction('kangourou.css')" id="kangourou" type="button" value="Kangourou">
-    </nav>
+</head>
+<body>
 
-    <div id="canvas">
-    
-      <div id="forme1"></div>
-      <div id="forme2"></div>
-      <div id="forme3"></div>
-      <div id="forme4"></div>
-      <div id="forme5"></div>
-      <div id="forme6"></div>
-      <div id="forme7"></div>
+	<div class="container">
 
-    </div>
-      
+		<div class="tangram">
 
-    <script src="script.js"></script>
+			<div class="triangle"></div>
+			<div class="triangle2"></div>
+			<div class="carre"></div>
+			<div class="triangle3"></div>
+			<div class="triangle4"></div>
+			<div class="triangle5"></div>
+			<div class="parallelogram"></div>
 
-  </body>
+		</div>
+
+	</div>
+	
+	<div class="buttons">
+		<button onclick = "myfonction('square.css')" id="carré">Carré</button>
+		<button onclick = "myfonction('figures.css')" id="desordre">Desordre</button>
+		<button onclick = "myfonction('exemples/canard.css')" id="canard">Canard</button>
+		<button onclick = "myfonction('exemples/serpant.css')" id="serpant">Serpant</button>
+		<button onclick = "myfonction('exemples/kangourou.css')" id="kangourou">Kangourou</button>
+	</div>
+
+<script src="script.js"></script>
+</body>
 </html>

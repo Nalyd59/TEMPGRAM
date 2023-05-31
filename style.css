@@ -2,82 +2,97 @@ body{
     background-color: beige;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-input{
-    color: aliceblue;
-    background-color: black;
-    font-style: italic;
-    font-weight: bold;
-    margin: 5px;
-    padding: 10px;
-    border-radius: 100px;
-}
 .container {
+    width: 500px;
+    height: 500px;
+    background-color: #333;
+    float: left;
+    border: 15px inset black;
+}
+.tangram{
+    padding: 20px 30px;
+    position: relative;
+}
+.buttons{
+    float: left;
+	width: 140px;
+}
+button{
+    background-color: #cb0b0b;
+	color: #fff;
+	font-size: 14px;
+	padding: 10px 15px;
+	width: 140px;
+	text-align: left;
+	margin-bottom: 4px;
+	cursor: pointer;
+    border: none;
+}
+h1{
     text-align: center;
-    display: flex;
-    justify-content: center;
 }
 
-#forme1 {
-    position: relative;
-    height: 71px;
-    width: 71px;
-    background-color: blue;
-    transition: 3s;
+/* FORMES GEMOETRIQUE */
+
+.triangle{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 50px solid #d2696a;
+	border-top: 50px solid transparent;
+	border-bottom: 50px solid transparent;
+    
+
 }
-#forme2 {
-    position: relative;
-    height: 0px;
-    width: 0px;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-top: 100px solid green;
-    transition: 3s;
-}
-#forme3 {
-    position: relative;
-    height: 0px;
-    width: 0px;
-    border-left: 100px solid transparent;
-    border-right: 100px solid transparent;
-    border-bottom: 100px solid transparent;
-    border-top: 100px solid red;
-    transition: 3s;
-}
-#forme4 {
-    position: relative;
-    height: 0px;
-    width: 0px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
+.triangle2{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 50px solid #7e2b7c;
+    border-top: 50px solid transparent;
     border-bottom: 50px solid transparent;
-    border-top: 50px solid pink;
-    transition: 3s;
+    
 }
-#forme5 {
-    position: relative;
-    height: 0px;
-    width: 0px;
-    border-left: 50px solid transparent;
-    border-right: 50px solid transparent;
-    border-bottom: 50px solid transparent;
-    border-top: 50px solid yellow;
-    transition: 3s;
-}
-#forme6 {
-    position: relative;
-    width: 100px;
-    height: 50px;
-    background-color: black;
-    transition: 3s;
-}
-#forme7 {
-    position: relative;
-    height: 0px;
-    width: 0px;
-    border-left: 70px solid transparent;
-    border-right: 70px solid transparent;
+.triangle3{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 70px solid #189184;
+    border-top: 70px solid transparent;
     border-bottom: 70px solid transparent;
-    border-top: 70px solid brown;
-    transition: 3s;
+    
+}
+
+.triangle4{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 100px solid #FBC002;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+
+
+}
+.triangle5{
+    width: 0;
+	height: 0;
+	position: absolute;
+    border-left: 100px solid #b20000;
+    border-top: 100px solid transparent;
+    border-bottom: 100px solid transparent;
+
+}
+.carre{
+    position: absolute;
+    background-color: #F48400;
+    width: 70px;
+    height: 70px;
+    
+}
+.parallelogram{
+    position: absolute;
+    background-color: #81b442;
+    width: 64px; 
+    height: 70px;
+    
 }
