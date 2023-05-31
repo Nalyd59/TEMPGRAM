@@ -26,5 +26,6 @@
     transition: all 2s;
 }
 .parallelogram{
-    transform: translate(200px, 10px) rotate(45deg);    transition: all 2s;
+    transform: translate(160px, 75px) rotate(295deg) skew(25deg, 20deg);
+    transition: all 2s;
 }

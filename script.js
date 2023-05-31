@@ -1,6 +1,6 @@
 // Fonction pour remplacer le css
 function myfonction(toto){
-  document.getElementById('change').setAttribute('href',toto);
+  document.getElementById('stylepage').setAttribute('href',toto);
 }
 
 //Ajoute le titre créé comme premier enfant de l'élément body

@@ -1,31 +1,31 @@
 .triangle{
-    transform:translate(270px, 0px) rotate(135deg);
+    transform: translate(285px, 0px) rotate(135deg);
     transition: all 2s
 }
 .triangle2{
-    transform: translate(280px,175px) rotate(0deg);
+    transform: translate(295px,175px) rotate(0deg);
     transition: all 2s;
 }
 .triangle3{
-    transform:translate(125px, 300px) rotate(270deg);
+    transform: translate(140px, 300px) rotate(270deg);
     transition: all 2s;
 }
 
 .triangle4{
-    transform: translate(120px, 150px) rotate(225deg);
+    transform: translate(135px, 150px) rotate(225deg);
     transition: all 2s;
 
 }
 .triangle5{
-    transform: translate(190px, 75px) rotate(45deg);
+    transform: translate(206px, 75px) rotate(45deg);
     transition: all 2s;
 
 }
 .carre{
-    transform:translate(178px, 298px) rotate(135deg);
+    transform: translate(193px, 298px) rotate(135deg);
     transition: all 2s;
 }
 .parallelogram{
-    transform:translate(26px, 347px) rotate(315deg) skew(225deg);
+    transform: translate(28px, 339px) rotate(315deg) skew(225deg);
     transition: all 2s;
 }
