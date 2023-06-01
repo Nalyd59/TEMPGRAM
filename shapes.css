@@ -6,7 +6,6 @@ body{
     height: 600px;
     background-color: #333;
     float: left;
-    margin: 0px auto;
 }
 .tangram{
     padding: 20px 30px;
@@ -36,20 +35,13 @@ h1{
     background-color: #333333;
     color: #fff;
     width: 300px;
+    height: 50px;
     text-align: center;
     margin: 0px 150px;
     border-radius: 10px 10px 0px 0px;
 }
 
-
-
-
-
-
-
-
-
-
+/* FORMES GEOMETRIQUE */
 
 .triangle{
     width: 0;

@@ -1,6 +1,7 @@
 .triangle{
     transform: translate(450px, 50px) rotate(45deg);
-    transition: all 2s
+    transition: all 2s;
+    animation-name: slide;
 }
 .triangle2{
     transform: translate(100px,400px) rotate(270deg);
