@@ -7,6 +7,6 @@ function myfonction(toto){
 let b = document.body;
 let titre = document.createElement('h1');
 
-titre.textContent = 'TEMPGRAM';
+titre.textContent = 'TANGRAM'
 
 b.prepend(titre);
