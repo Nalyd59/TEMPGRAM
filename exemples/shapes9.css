@@ -25,10 +25,10 @@
 
 }
 .carre{
-    transform:translate(86px, 206px) rotate(90deg);
+    transform: translate(65px, 180px) rotate(90deg);
     transition: all 2s;
 }
 .parallelogram{
-    transform:translate(163px, 240px) rotate(-90deg) skew(-45deg);
+    transform: translate(155px, 220px) rotate(-90deg) skew(-45deg);
     transition: all 2s;
 }
