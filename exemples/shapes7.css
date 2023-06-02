@@ -1,6 +1,6 @@
 /*LION*/
 .triangle{
-    transform: translate(270px,288px) rotate(-90deg);
+    transform: translate(280px,294px) rotate(-90deg);
     transition: all 2s;
 
 }
@@ -9,12 +9,12 @@
     transition: all 2s;
 }
 .triangle3{
-    transform:translate(158px, 190px) rotate(135deg);
+    transform:translate(163px, 190px) rotate(135deg);
     transition: all 2s;
 }
 
 .triangle4{
-    transform:translate(75px, 79px) rotate(-45deg);
+    transform:translate(83px, 79px) rotate(-45deg);
     transition: all 2s;
 
 }
@@ -28,6 +28,6 @@
     transition: all 2s;
 }
 .parallelogram{
-    transform:translate(394px, 230px) rotate(-110deg) skew(-45deg);
+    transform:translate(393px, 232px) rotate(-110deg) skew(-45deg);
     transition: all 2s;
 }
